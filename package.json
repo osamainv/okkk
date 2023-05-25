@@ -1,12 +1,13 @@
 {
   "name": "my-app",
+  "homepage": "https://osamainv.github.io/okkk",
   "version": "1.0.0",
-  "homepage": "https://osamainv.github.io/aabbcc",
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "server": "json-server --watch db.json --port 5000"
   },
   "dependencies": {
     "react": "^17.0.2",
